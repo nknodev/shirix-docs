@@ -1,9 +1,5 @@
-Template for the Read the Docs tutorial
+Shirix API Docs
 =======================================
 
-This GitHub template includes fictional Python library
-with some basic Sphinx docs.
+Shirix - плеер позволяющий изпользовать базу Кодик без рекламы и с разными фичами.
 
-Read the tutorial here:
-
-https://docs.readthedocs.io/en/stable/tutorial/
