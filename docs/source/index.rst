@@ -1,22 +1,21 @@
-Welcome to Lumache's documentation!
+Приветствуем в документации Shirix!
 ===================================
 
-**Lumache** (/lu'make/) is a Python library for cooks and food lovers
-that creates recipes mixing random ingredients.
-It pulls data from the `Open Food Facts database <https://world.openfoodfacts.org/>`_
-and offers a *simple* and *intuitive* API.
+**Shirix** - плеер позволяющий изпользовать базу Кодик без рекламы и с разными фичами.
+А также мы предоставляем доступ к некоторым другим нашим `сервисам <https://shirix.ahegao.ovh/>`_
+*Данное API является проектом `Ahegao Team <https://ahegao.ovh/>`_*
 
-Check out the :doc:`usage` section for further information, including
-how to :ref:`installation` the project.
+Рекомендуем для начала ознакомления посетить :doc:`info`, там указаны такая информация как :ref:`rate` или :ref:`ok`
 
 .. note::
+      В данный момент API переезжает на v2, после полного переезда v1 будет отключен.
+   
 
-   This project is under active development.
-
-Contents
+Содержание
 --------
 
 .. toctree::
 
-   usage
-   api
+   info
+   v2
+   news
