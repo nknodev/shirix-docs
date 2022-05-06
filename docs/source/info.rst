@@ -6,11 +6,11 @@
 Rate-Limit
 ------------
 
-30rpm
-3rps
+60rpm
+5rps
 
 Для партнеров:
-50rpm
+90rpm
 9rps
 
 
