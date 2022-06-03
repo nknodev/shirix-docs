@@ -17,5 +17,5 @@
 .. toctree::
 
    info
-   v2
-   news
+   api
+   
