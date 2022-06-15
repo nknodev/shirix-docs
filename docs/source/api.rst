@@ -143,5 +143,5 @@ v2
                    "bc_time": "08:30",
                    "bc_tz": "Asia/Tokyo"
                    }
-                 ]
+     ]
     }
