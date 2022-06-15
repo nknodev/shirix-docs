@@ -112,3 +112,36 @@ v1
                      "released_on": "2020-12-19"
                    }
    }
+
+
+.. _v2:
+
+v2
+------------
+.. _/getsh:
+/getSchedule
+------
+Расписание аниме. Указывается по азиатскому времени.
+
+.. code-block:: console
+
+  GET /v2/getSchedule?day=sunday  -  день за который получаем расписание, если не указывать day он установится в значение today
+
+.. code-block:: console
+
+   {
+     "ok": true,
+     "message": "sorry guys, i can't get ru title of anime, i dumb",
+     "ids": [
+      51037
+     ],
+     "releases": [
+                   {
+                   "id": 51037,
+                   "title_en": "Duel Masters King Max",
+                   "pic": "https://cdn.myanimelist.net/images/anime/1191/122796l.jpg",
+                   "bc_time": "08:30",
+                   "bc_tz": "Asia/Tokyo"
+                   }
+                 ]
+    }
