@@ -10,11 +10,12 @@ v2 - https://shirix-api.nkno.site/v2
 
 
 
-.. _getop:
+.. _v1:
 
 v1
 ------------
 
+.. _/getop:
 /getOpening
 ------
 получение опенингов по shikimori_id
@@ -47,7 +48,7 @@ v1
                ]
    }
 
-
+1.. _/getep:
 /getEpisodes
 ------
 Получение списка всех доступных озвучек со всеми доступными эпизодами по shikimoriid
@@ -72,4 +73,41 @@ v1
                      }
                   }
                ]
+   }
+
+
+.. _/getanisearch:
+/getSearchAnime
+------
+Поиск аниме. Показывается 50штук на 1страницу.
+
+.. code-block:: console
+
+  GET /v1/getEpisodes?id=32  -  id аниме на шикимори, либо id на MAL *ОБЯЗАТЕЛЬНЫЙ
+
+.. code-block:: console
+
+  {
+      "ok": true,
+      "message": "yeah",
+      "results": [
+                   {
+                     "id": 41389,
+                     "name": "Tonikaku Kawaii",
+                     "russian": "Унеси меня на Луну",
+                     "image": {
+                       "original": "/system/animes/original/41389.jpg?1637057457",
+                       "preview": "/system/animes/preview/41389.jpg?1637057457",
+                       "x96": "/system/animes/x96/41389.jpg?1637057457",
+                       "x48": "/system/animes/x48/41389.jpg?1637057457"
+                     },
+                     "url": "/animes/41389-tonikaku-kawaii",
+                     "kind": "tv",
+                     "score": "7.92",
+                     "status": "released",
+                     "episodes": 12,
+                     "episodes_aired": 12,
+                     "aired_on": "2020-10-03",
+                     "released_on": "2020-12-19"
+                   }
    }
