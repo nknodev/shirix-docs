@@ -145,3 +145,24 @@ v2
                    }
      ]
     }
+
+
+.. _/getplayer:
+/getPlayer
+------
+Измененный плеер кодик без рекламы, с плюшками.
+
+.. note::
+
+   Плеер активен 24часа после создания ссылки на плеер через запрос
+
+.. code-block:: console
+
+  GET /v2/getPlayer?link=//aniqit.com/seria/643038/774eaeaafb86cf666ba20cc518e272d2/720p  -  ссылка на плеер, который преобразовываем
+
+.. code-block:: console
+
+   {
+     "ok": true,
+     "player":"https://shirix-player.web.app/?360=https://cloud.kodik-storage.com/useruploads/beb49eb3-3c5e-4270-b15a-7ac0039d8889/2d1ba10b9a6f9a38f3126e3cfcbc6f4d:2022061611/360.mp4&480=https://cloud.kodik-storage.com/useruploads/beb49eb3-3c5e-4270-b15a-7ac0039d8889/2d1ba10b9a6f9a38f3126e3cfcbc6f4d:2022061611/480.mp4&720=https://cloud.kodik-storage.com/useruploads/beb49eb3-3c5e-4270-b15a-7ac0039d8889/2d1ba10b9a6f9a38f3126e3cfcbc6f4d:2022061611/720.mp4"
+    }
