@@ -83,7 +83,8 @@ v1
 
 .. code-block:: console
 
-  GET /v1/getEpisodes?id=32  -  id аниме на шикимори, либо id на MAL *ОБЯЗАТЕЛЬНЫЙ
+  GET /v1/getSearchAnime?q=Унеси меня на луну  -  поисковой запрос *ОБЯЗАТЕЛЬНЫЙ
+                         page=1 - страница
 
 .. code-block:: console
 
