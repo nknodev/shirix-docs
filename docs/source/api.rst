@@ -6,6 +6,7 @@ API
 Endpoints
 ------------
 v1 - https://shirix-api.nkno.site/v1
+
 v2 - https://shirix-api.nkno.site/v2
 
 
