@@ -6,8 +6,8 @@
 Rate-Limit
 ------------
 
-60rpm
-5rps
+300rpm
+70rps
 
 
 
